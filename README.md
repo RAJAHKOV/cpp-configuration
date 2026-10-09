@@ -36,6 +36,8 @@ git clone https://git.code.sf.net/p/mingw-w64/mingw-w64 mingw-w64
 
 如截图2026-10-10 015411.png
 
+<img src="2026-10-10 015411.png" alt="测试截图" width="700">
+
 7.配置编译环境
 
 新建文件夹code,用VScode打开这个文件夹，新建1.cpp（如仓库所示），按`Ctrl+Shift+P`组合键，搜索C++，点击“编辑配置(UI)”，编译器路径输入环境变量的路径再加"/g++.exe"，IntelliSense 模式选择“Windows-gcc-x64”
