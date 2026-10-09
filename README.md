@@ -19,7 +19,7 @@ mingw-w64的编译器套件如下：
 
 （4）. 配套头文件、标准库（`iostream`、`vector` 这些 C++ 标准库实现）
 
-在`Windows PowerShell`中输入如下命令
+在`Windows PowerShell`中输入如下命令（前提已配置git）
 ```bash
 git clone https://git.code.sf.net/p/mingw-w64/mingw-w64 mingw-w64
 ```
