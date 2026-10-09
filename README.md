@@ -29,7 +29,10 @@ git clone https://git.code.sf.net/p/mingw-w64/mingw-w64 mingw-w64
 
 右击此电脑->点击“属性”->点击“高级系统设置”->点击用户变量中的Path->点击`新建`->复制Mingw-w64/bin的文件夹路径并粘贴，点击`确定`
 
-![程序运行输出截图]("D:\Pictures\Screenshots\2026-10-10 015411.png")
+![测试结果截图](2026-10-10 015411.png)
+
+![截图](2026-10-10 015411.png)
+
 6.配置C++插件
 
 在VScode中插件搜索“C++” 安装第一个即可
