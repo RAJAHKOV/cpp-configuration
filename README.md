@@ -34,6 +34,39 @@ git clone https://git.code.sf.net/p/mingw-w64/mingw-w64 mingw-w64
 
 在VScode中插件搜索“C++” 安装第一个即可
 
-如截图
+如截图2026-10-10 015411.png
 
-7.测试是否成功
+7.配置编译环境
+
+新建文件夹code,用VScode打开这个文件夹，新建1.cpp（如仓库所示），按`Ctrl+Shift+P`组合键，搜索C++，点击“编辑配置(UI)”，编译器路径输入环境变量的路径再加"/g++.exe"，IntelliSense 模式选择“Windows-gcc-x64”
+
+8.测试是否成功
+
+VScode中新建Powershell终端，
+
+输入
+```bash
+g++ version
+```
+输出
+```text
+g++.exe (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 8.1.0
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
+输入
+
+编译指令
+```text
+g++ 1.cpp -o 1.exe
+```
+运行指令
+```text
+.\1.exe
+```
+输出
+```text
+Hello World
+```
+证明配置成功
