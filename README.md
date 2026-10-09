@@ -1,7 +1,7 @@
 # cpp-configuration
 Configure the C++ development environment in VScode via the integrated PowerShell command line
 
-1.从Visual Studio code官网（https://code.visualstudio.com/）下载VScode并安装，安装程序全部选择“next”即可。
+1.从Visual Studio code[官网](https://code.visualstudio.com) 下载VScode并安装，安装程序全部选择“next”即可。
 
 2.点击"View"，选择"Extensions",搜索“Chinese”，安装简体中文插件。
 
