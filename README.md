@@ -7,7 +7,7 @@ Configure the C++ development environment in VScode via the integrated PowerShel
 
 3.在VScode界面按`Ctrl+Shift+P`组合键，搜索display，点击`Configure Display Language`，选择“简体中文”，点击“restart”
 
-4.Visual Studio code作用如其名，“可视化的代码工作站”，是一个代码编辑器，并不包含具有编译功能的插件。MinGW-w64 是 Windows 下的 GCC 编译器，负责把 `.cpp` 源码翻译成电脑能执行的 exe 文件。
+4.Visual Studio code作用如其名，“可视化的代码工作站”，是一个代码编辑器，并不包含具有编译功能的插件。MinGW-w64 是 Windows 下的 GCC 编译器，负责把 `.cpp` 源码翻译成电脑能执行的 `.exe` 文件。
 
 mingw-w64的编译器套件如下：
 
