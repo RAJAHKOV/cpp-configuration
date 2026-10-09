@@ -34,9 +34,9 @@ git clone https://git.code.sf.net/p/mingw-w64/mingw-w64 mingw-w64
 
 在VScode中插件搜索“C++” 安装第一个即可
 
-如截图2026-10-10 015411.png
+如截图images/pic1.png
 
-<img src="2026-10-10 015411.png" alt="测试截图" width="700">
+<img src="images/pic1.png" alt="截图" width="700">
 
 7.配置编译环境
 
@@ -57,6 +57,9 @@ Copyright (C) 2018 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
+
+<img src="images/pic2.png" alt="测试截图" width="700">
+
 输入
 
 编译指令
@@ -71,4 +74,7 @@ g++ 1.cpp -o 1.exe
 ```text
 Hello World
 ```
+
+<img src="images/pic3.png" alt="测试截图" width="700">
+
 证明配置成功
